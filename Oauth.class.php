@@ -6,15 +6,14 @@ class Oauth{
 
     const VERSION = "0.9";
 	// URL
-    const GET_AUTH_CODE_URL = "http://eid.byr.cn/paper/nforum/oauth2/authorize";
-    const GET_ACCESS_TOKEN_URL = "http://eid.byr.cn/paper/nforum/oauth2/token";
-    const GET_INFO_URL = "http://eid.byr.cn/paper/nforum/open/user/getinfo.json";
-    //const GET_INFO_URL = "http://eid.byr.cn/paper/nforum/open/article/zhejiang/post.json";
+    const GET_AUTH_CODE_URL = "http://bbs.byr.cn//oauth2/authorize";
+    const GET_ACCESS_TOKEN_URL = "http://bbs.byr.cn//oauth2/token";
+    const GET_INFO_URL = "http://bbs.byr.cn//open/user/getinfo.json";
 
 	// CLIENT INFO
-    const CLIENT_ID = "16b9a099673a15f5ab49b27f4ca06905";
-    const CLIENT_SECRET = "0b095905b232458f3256a13352153664";
-    const REDIRECT_URI = "http://www.also777.com/oauth2/callback.php";
+    const CLIENT_ID = "";
+    const CLIENT_SECRET = "";
+    const REDIRECT_URI = "";
     const SCOPE = "article,mail,blacklist";
 
     protected $error;
